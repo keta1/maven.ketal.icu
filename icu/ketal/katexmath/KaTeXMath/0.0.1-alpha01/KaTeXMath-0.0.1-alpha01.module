@@ -35,11 +35,11 @@
         {
           "name": "KaTeXMath-0.0.1-alpha01.aar",
           "url": "KaTeXMath-0.0.1-alpha01.aar",
-          "size": 2782812,
-          "sha512": "ea09847e65c57e37b43b0025f826b6b5456b999b6e797d2c481d803594bfc567f2d1db75b716e538c37291fc599a0004740e12b68b644e2c7bc2a6dbfa19bec0",
-          "sha256": "ee9bdfdbd988a3bb2d6eda2f6e19f9f1e1ef4a674fd522bfb0b5e8565c7411f8",
-          "sha1": "82cacbb0155f205630c89cd71ae0e5a437b999db",
-          "md5": "ee54952d2347e7a5fa70e0a6f83f50f5"
+          "size": 2783030,
+          "sha512": "bc344b8cde4d762f2584c37f7bb0aef73288d3e2ba4c53ec656c8215f48741efd95955919108ad830304d1994e0fe7856099bc2a87185ead99ae2001e1914cd9",
+          "sha256": "810d4fcfffc167b696ecb13bf43e4e727d09b394bbe027cb5f3ad2a5e52bc98b",
+          "sha1": "267d092756db22714428bc43bba5ed7a244c765a",
+          "md5": "914cfa367de492ac7b82ca9dd6f9cb5b"
         }
       ]
     },
@@ -71,11 +71,11 @@
         {
           "name": "KaTeXMath-0.0.1-alpha01.aar",
           "url": "KaTeXMath-0.0.1-alpha01.aar",
-          "size": 2782812,
-          "sha512": "ea09847e65c57e37b43b0025f826b6b5456b999b6e797d2c481d803594bfc567f2d1db75b716e538c37291fc599a0004740e12b68b644e2c7bc2a6dbfa19bec0",
-          "sha256": "ee9bdfdbd988a3bb2d6eda2f6e19f9f1e1ef4a674fd522bfb0b5e8565c7411f8",
-          "sha1": "82cacbb0155f205630c89cd71ae0e5a437b999db",
-          "md5": "ee54952d2347e7a5fa70e0a6f83f50f5"
+          "size": 2783030,
+          "sha512": "bc344b8cde4d762f2584c37f7bb0aef73288d3e2ba4c53ec656c8215f48741efd95955919108ad830304d1994e0fe7856099bc2a87185ead99ae2001e1914cd9",
+          "sha256": "810d4fcfffc167b696ecb13bf43e4e727d09b394bbe027cb5f3ad2a5e52bc98b",
+          "sha1": "267d092756db22714428bc43bba5ed7a244c765a",
+          "md5": "914cfa367de492ac7b82ca9dd6f9cb5b"
         }
       ]
     },
