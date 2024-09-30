@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "icu.ketal.katexmath",
+    "module": "KaTeXMath",
+    "version": "0.0.1-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "KaTeXMath-0.0.1-alpha01.aar",
+          "url": "KaTeXMath-0.0.1-alpha01.aar",
+          "size": 2782812,
+          "sha512": "ea09847e65c57e37b43b0025f826b6b5456b999b6e797d2c481d803594bfc567f2d1db75b716e538c37291fc599a0004740e12b68b644e2c7bc2a6dbfa19bec0",
+          "sha256": "ee9bdfdbd988a3bb2d6eda2f6e19f9f1e1ef4a674fd522bfb0b5e8565c7411f8",
+          "sha1": "82cacbb0155f205630c89cd71ae0e5a437b999db",
+          "md5": "ee54952d2347e7a5fa70e0a6f83f50f5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.rikka.ndk.thirdparty",
+          "module": "cxx",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "KaTeXMath-0.0.1-alpha01.aar",
+          "url": "KaTeXMath-0.0.1-alpha01.aar",
+          "size": 2782812,
+          "sha512": "ea09847e65c57e37b43b0025f826b6b5456b999b6e797d2c481d803594bfc567f2d1db75b716e538c37291fc599a0004740e12b68b644e2c7bc2a6dbfa19bec0",
+          "sha256": "ee9bdfdbd988a3bb2d6eda2f6e19f9f1e1ef4a674fd522bfb0b5e8565c7411f8",
+          "sha1": "82cacbb0155f205630c89cd71ae0e5a437b999db",
+          "md5": "ee54952d2347e7a5fa70e0a6f83f50f5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "KaTeXMath-0.0.1-alpha01-sources.jar",
+          "url": "KaTeXMath-0.0.1-alpha01-sources.jar",
+          "size": 66025,
+          "sha512": "3a20c5b7433700eec92ed4a6e20b5f87b2175cb4a4c8b615e78f41b9520251d6a24f75a932661f6de921be07777d29f79bdc2cabe1774f02fb40955e3f30f200",
+          "sha256": "f94a8ca52c15597f86e2684208324daa33f7473e38d631d8243514b20081a387",
+          "sha1": "b2b302743a66d9801c9fd6564d4637694b8f6002",
+          "md5": "b4cd532b92a793f1ae1589d983c6a8ab"
+        }
+      ]
+    }
+  ]
+}
