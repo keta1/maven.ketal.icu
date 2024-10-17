@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "icu.ketal.katexmath",
+    "module": "KaTeXMath-compose",
+    "version": "0.0.1-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "KaTeXMath-compose-0.0.1-alpha03.aar",
+          "url": "KaTeXMath-compose-0.0.1-alpha03.aar",
+          "size": 13478,
+          "sha512": "9f7db2629b92f2796121e287dda41a47f29bb2169b5e06b889bbf8be3e542f9592f059db390b04f33fa7e7c30da29d8de157e65fde3051c087f017f3f1490054",
+          "sha256": "fafa8d6b74e491a080438f205fe50e32a9071d361514863c5f299dc432ead4ff",
+          "sha1": "000f42d81cd2428c0ac0fd69564cfbe9be898b28",
+          "md5": "cf4afc91c4fb4dab9f27a31cecb00440"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "icu.ketal.katexmath",
+          "module": "KaTeXMath-core",
+          "version": {
+            "requires": "0.0.1-alpha03"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.09.03"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "KaTeXMath-compose-0.0.1-alpha03.aar",
+          "url": "KaTeXMath-compose-0.0.1-alpha03.aar",
+          "size": 13478,
+          "sha512": "9f7db2629b92f2796121e287dda41a47f29bb2169b5e06b889bbf8be3e542f9592f059db390b04f33fa7e7c30da29d8de157e65fde3051c087f017f3f1490054",
+          "sha256": "fafa8d6b74e491a080438f205fe50e32a9071d361514863c5f299dc432ead4ff",
+          "sha1": "000f42d81cd2428c0ac0fd69564cfbe9be898b28",
+          "md5": "cf4afc91c4fb4dab9f27a31cecb00440"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "KaTeXMath-compose-0.0.1-alpha03-sources.jar",
+          "url": "KaTeXMath-compose-0.0.1-alpha03-sources.jar",
+          "size": 3313,
+          "sha512": "c67b813139c5b387e358ca5fba161e9ffd7c0b441b0ca6e8b2b0cdc763f99a789476f2d2776d520fd7cc1d88a5ba05f881cf54a1f68e08ce856c833cf7e54df7",
+          "sha256": "6213e82764d06a28cebc291c6b3bf6f5d46e9e5521d8198dd629b8c8d236a391",
+          "sha1": "95f267acc2a2e8b4ee37dc3ce903154717779cb6",
+          "md5": "69866f1a030654dcab7c9bdbce7c4633"
+        }
+      ]
+    }
+  ]
+}
