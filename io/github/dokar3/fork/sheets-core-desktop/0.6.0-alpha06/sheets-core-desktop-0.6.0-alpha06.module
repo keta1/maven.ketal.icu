@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sheets-core/0.6.0-alpha06/sheets-core-0.6.0-alpha06.module",
+    "group": "io.github.dokar3.fork",
+    "module": "sheets-core",
+    "version": "0.6.0-alpha06",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sheets-core-desktop.jar",
+          "url": "sheets-core-desktop-0.6.0-alpha06.jar",
+          "size": 200964,
+          "sha512": "248e26da727170db6af5adc6cb1f2bf85967a40823b4117dd97055b528cb772f9892a30d973a41bb274e655b53ddb3959a47a703b640aa712a33a75ab03b9d5b",
+          "sha256": "878ee0ce0e86c98d812f59d379c98e7c9eb8509b823aad1fd2baa080800520da",
+          "sha1": "bc0bea958259555622f4d6b4198c735153a35729",
+          "md5": "1fcf347f63ff6b4b090862e0023934b8"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.desktop",
+          "module": "desktop-jvm-macos-arm64",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sheets-core-desktop.jar",
+          "url": "sheets-core-desktop-0.6.0-alpha06.jar",
+          "size": 200964,
+          "sha512": "248e26da727170db6af5adc6cb1f2bf85967a40823b4117dd97055b528cb772f9892a30d973a41bb274e655b53ddb3959a47a703b640aa712a33a75ab03b9d5b",
+          "sha256": "878ee0ce0e86c98d812f59d379c98e7c9eb8509b823aad1fd2baa080800520da",
+          "sha1": "bc0bea958259555622f4d6b4198c735153a35729",
+          "md5": "1fcf347f63ff6b4b090862e0023934b8"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "sheets-core-desktop-sources.jar",
+          "url": "sheets-core-desktop-0.6.0-alpha06-sources.jar",
+          "size": 17504,
+          "sha512": "aae5737e84e7a1e77420a85589d9d81cc7f5339d1c615640a83a5c1c50a9f88481e8b63174aeac6fd838cee84b60a89a06812807e75553594fe36dc6083a6f92",
+          "sha256": "91c90129cc1cf8a9b201c084fea56788292945006a7d718fe5d981cb191891a4",
+          "sha1": "938441ce6c93b2c5f2e06e0e9bf02f7538b3c722",
+          "md5": "fc524de08f09baa2811edb84c5840a27"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sheets-core/0.6.0-alpha06/sheets-core-0.6.0-alpha06.module",
+    "group": "io.github.dokar3.fork",
+    "module": "sheets-core",
+    "version": "0.6.0-alpha06",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sheets-core-release.aar",
+          "url": "sheets-core-android-0.6.0-alpha06.aar",
+          "size": 209714,
+          "sha512": "7e1472b4f6f6058799a2dc74daccf205a477463ea0e1aabaed3b379dd6cc975da52e42f80a328bd9a9ca873708c9325ed592bf92070efe66f0bf3894eab7ed32",
+          "sha256": "400ad4e5e3aaad327d4208f890f8efc7fe7ade7c6911d9e08e9fb61585f4df0e",
+          "sha1": "b6c91655ec0bd7aab35a6e7ff27ebeca4327f69d",
+          "md5": "89dd47e2feee7fbf9461398e783df136"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.9.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.11"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.11"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sheets-core-release.aar",
+          "url": "sheets-core-android-0.6.0-alpha06.aar",
+          "size": 209714,
+          "sha512": "7e1472b4f6f6058799a2dc74daccf205a477463ea0e1aabaed3b379dd6cc975da52e42f80a328bd9a9ca873708c9325ed592bf92070efe66f0bf3894eab7ed32",
+          "sha256": "400ad4e5e3aaad327d4208f890f8efc7fe7ade7c6911d9e08e9fb61585f4df0e",
+          "sha1": "b6c91655ec0bd7aab35a6e7ff27ebeca4327f69d",
+          "md5": "89dd47e2feee7fbf9461398e783df136"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "sheets-core-android-sources.jar",
+          "url": "sheets-core-android-0.6.0-alpha06-sources.jar",
+          "size": 20929,
+          "sha512": "04dffd2062a14fa99e06ab83231f52832b41206cd828bc5bd6b60455e341cb8686f42eae1ad46689094bb3b65decd1734d32312f67a651cfd5e405a4df3f2a5e",
+          "sha256": "e3cd3a51efdb04a01853a44a2da05abce9e930b4c99f2408ffda12b1948400b7",
+          "sha1": "af84f3bbf65c37d1f4256543ebb21ed1cadd4889",
+          "md5": "981091de142b1661fa82acb28ac7ba67"
+        }
+      ]
+    }
+  ]
+}

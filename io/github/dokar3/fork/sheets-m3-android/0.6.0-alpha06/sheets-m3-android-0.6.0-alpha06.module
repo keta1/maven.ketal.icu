@@ -1,0 +1,170 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sheets-m3/0.6.0-alpha06/sheets-m3-0.6.0-alpha06.module",
+    "group": "io.github.dokar3.fork",
+    "module": "sheets-m3",
+    "version": "0.6.0-alpha06",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.dokar3.fork",
+          "module": "sheets-core",
+          "version": {
+            "requires": "0.6.0-alpha06"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sheets-m3-release.aar",
+          "url": "sheets-m3-android-0.6.0-alpha06.aar",
+          "size": 17192,
+          "sha512": "402deffc4c705276feaf961ee35e0dfac647f645d73063f279e280755d2e9b8aae6fadd649b4ec87dd727c2dee420ac9daff9c2575df7ae09e39b4d9e54d80b7",
+          "sha256": "65b471a0425211a91b9e24674c41d659fbdbf154dcb7a0d3f91f4fe852fb5afb",
+          "sha1": "e1212c6f3b2240e997bdaf2a7625e98d12c975b4",
+          "md5": "a80f25e263196a51e142159cbe6c7098"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.dokar3.fork",
+          "module": "sheets-core",
+          "version": {
+            "requires": "0.6.0-alpha06"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.6.11"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sheets-m3-release.aar",
+          "url": "sheets-m3-android-0.6.0-alpha06.aar",
+          "size": 17192,
+          "sha512": "402deffc4c705276feaf961ee35e0dfac647f645d73063f279e280755d2e9b8aae6fadd649b4ec87dd727c2dee420ac9daff9c2575df7ae09e39b4d9e54d80b7",
+          "sha256": "65b471a0425211a91b9e24674c41d659fbdbf154dcb7a0d3f91f4fe852fb5afb",
+          "sha1": "e1212c6f3b2240e997bdaf2a7625e98d12c975b4",
+          "md5": "a80f25e263196a51e142159cbe6c7098"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "sheets-m3-android-sources.jar",
+          "url": "sheets-m3-android-0.6.0-alpha06-sources.jar",
+          "size": 3588,
+          "sha512": "962646ee391d6f555adb627be6852b7ef3ed5328abe10b6d496d9ae37d241c738b0ef0a63a40f404701075d38587586c4e8676b8eefd1d53632ded129f65183e",
+          "sha256": "37fb04b9e5dd2dd7c1d7c1fa81b21751da79e5ae0ec035eafb681294cb177231",
+          "sha1": "9346f7a6cec183353253aaf21f102b304ca936d7",
+          "md5": "7a4ccd3ffd8adb8ecc88907065045b20"
+        }
+      ]
+    }
+  ]
+}

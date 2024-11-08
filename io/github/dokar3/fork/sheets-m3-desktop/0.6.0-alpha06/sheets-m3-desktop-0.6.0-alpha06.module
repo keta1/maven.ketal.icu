@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sheets-m3/0.6.0-alpha06/sheets-m3-0.6.0-alpha06.module",
+    "group": "io.github.dokar3.fork",
+    "module": "sheets-m3",
+    "version": "0.6.0-alpha06",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.desktop",
+          "module": "desktop-jvm-macos-arm64",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "io.github.dokar3.fork",
+          "module": "sheets-core",
+          "version": {
+            "requires": "0.6.0-alpha06"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sheets-m3-desktop.jar",
+          "url": "sheets-m3-desktop-0.6.0-alpha06.jar",
+          "size": 19023,
+          "sha512": "aac094f67a4509e84428f3259f1881b20c077f3813f20e02865b8b7c06df5e4a1fd2307ea6213110cbda714c8f73635237e1989705440c580acfeff18cdd1b18",
+          "sha256": "796709dd646f39c1160db0cc6b902241ea97cad1f1e63aaec8d84fef11db34ff",
+          "sha1": "496b37a56f3c575d15f6e362d5814cb0f17d0a27",
+          "md5": "730bda582f6f838d6430bbf50ad809ae"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.desktop",
+          "module": "desktop-jvm-macos-arm64",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "io.github.dokar3.fork",
+          "module": "sheets-core",
+          "version": {
+            "requires": "0.6.0-alpha06"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sheets-m3-desktop.jar",
+          "url": "sheets-m3-desktop-0.6.0-alpha06.jar",
+          "size": 19023,
+          "sha512": "aac094f67a4509e84428f3259f1881b20c077f3813f20e02865b8b7c06df5e4a1fd2307ea6213110cbda714c8f73635237e1989705440c580acfeff18cdd1b18",
+          "sha256": "796709dd646f39c1160db0cc6b902241ea97cad1f1e63aaec8d84fef11db34ff",
+          "sha1": "496b37a56f3c575d15f6e362d5814cb0f17d0a27",
+          "md5": "730bda582f6f838d6430bbf50ad809ae"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "sheets-m3-desktop-sources.jar",
+          "url": "sheets-m3-desktop-0.6.0-alpha06-sources.jar",
+          "size": 3588,
+          "sha512": "962646ee391d6f555adb627be6852b7ef3ed5328abe10b6d496d9ae37d241c738b0ef0a63a40f404701075d38587586c4e8676b8eefd1d53632ded129f65183e",
+          "sha256": "37fb04b9e5dd2dd7c1d7c1fa81b21751da79e5ae0ec035eafb681294cb177231",
+          "sha1": "9346f7a6cec183353253aaf21f102b304ca936d7",
+          "md5": "7a4ccd3ffd8adb8ecc88907065045b20"
+        }
+      ]
+    }
+  ]
+}

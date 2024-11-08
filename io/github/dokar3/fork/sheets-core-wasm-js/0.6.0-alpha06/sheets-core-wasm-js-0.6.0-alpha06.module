@@ -1,0 +1,176 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sheets-core/0.6.0-alpha06/sheets-core-0.6.0-alpha06.module",
+    "group": "io.github.dokar3.fork",
+    "module": "sheets-core",
+    "version": "0.6.0-alpha06",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sheets-core-wasm-js.klib",
+          "url": "sheets-core-wasm-js-0.6.0-alpha06.klib",
+          "size": 3373350,
+          "sha512": "1df54f4b6123fd63a33b57abdd445457b409262f79563f4953244d18beeb3aeedb5f7bbe829147f892da8506627bccfd1f0ed4208dd4c7629413935d5a6559fe",
+          "sha256": "e358d529ecc8ad7d7efa4220794242bee4c734bc8c999bb0b716f7fccb668ac4",
+          "sha1": "f2514cb084ace88d09a362b509be438ac4bfe3ce",
+          "md5": "5d26e9a30444b454a450c455f87d6d5a"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sheets-core-wasm-js.klib",
+          "url": "sheets-core-wasm-js-0.6.0-alpha06.klib",
+          "size": 3373350,
+          "sha512": "1df54f4b6123fd63a33b57abdd445457b409262f79563f4953244d18beeb3aeedb5f7bbe829147f892da8506627bccfd1f0ed4208dd4c7629413935d5a6559fe",
+          "sha256": "e358d529ecc8ad7d7efa4220794242bee4c734bc8c999bb0b716f7fccb668ac4",
+          "sha1": "f2514cb084ace88d09a362b509be438ac4bfe3ce",
+          "md5": "5d26e9a30444b454a450c455f87d6d5a"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "sheets-core-wasm-js-sources.jar",
+          "url": "sheets-core-wasm-js-0.6.0-alpha06-sources.jar",
+          "size": 17518,
+          "sha512": "6046a6627dbf365715f36f901c0194e3056dbe3092a613f3b8d5ff7a4fd7ee4d8c96b843415c66ce9f612fc291dc672d25c956776da90d04df2c481f90b09f73",
+          "sha256": "c51378a92b14a3fc05e6c5487072c791d6db30c048c236aa5d22c3aafa5a389f",
+          "sha1": "79baa2a0210cb80f34b065635abd48c416801826",
+          "md5": "2eb7c54a65799178ed524779e0482186"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sheets-core.kotlin_resources.zip",
+          "url": "sheets-core-wasm-js-0.6.0-alpha06-kotlin_resources.kotlin_resources.zip",
+          "size": 324,
+          "sha512": "143d0041b31d690076e57c33988e7df746c597456aaeae05415ed2b6efe215079745149285a4d279f147b4537b55756af9a61bf04873f2681b62b29e8adc9ba6",
+          "sha256": "1a09662e8ba6f67fa6e7be61874e0928620ba01134046d74afb5bc41d773c7a8",
+          "sha1": "4bddf473feec1b2cd4d23cfa282aaa3a23f727b6",
+          "md5": "9f21a565159c29f91d5f4524fcd7b87c"
+        }
+      ]
+    }
+  ]
+}

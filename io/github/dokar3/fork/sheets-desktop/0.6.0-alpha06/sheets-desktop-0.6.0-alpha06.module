@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sheets/0.6.0-alpha06/sheets-0.6.0-alpha06.module",
+    "group": "io.github.dokar3.fork",
+    "module": "sheets",
+    "version": "0.6.0-alpha06",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.desktop",
+          "module": "desktop-jvm-macos-arm64",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "io.github.dokar3.fork",
+          "module": "sheets-core",
+          "version": {
+            "requires": "0.6.0-alpha06"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sheets-desktop.jar",
+          "url": "sheets-desktop-0.6.0-alpha06.jar",
+          "size": 18836,
+          "sha512": "38c9818cb006380e288b814dd34b536b81aee5c27fd0ae9629952cf7da8541480854b6afa2775c7f28f41ff0080798ae43cbf1ebf51e003afed7ae71258f51d0",
+          "sha256": "6dffbdd19c427482bf47d00be863538d970fc9df9e211cc055f03293f73ca7ff",
+          "sha1": "2f7e42f2d0fa69e27448002d0fe300cc4df8491c",
+          "md5": "d1d580f03e224a33d35c8ec1d2390ec3"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.desktop",
+          "module": "desktop-jvm-macos-arm64",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "io.github.dokar3.fork",
+          "module": "sheets-core",
+          "version": {
+            "requires": "0.6.0-alpha06"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sheets-desktop.jar",
+          "url": "sheets-desktop-0.6.0-alpha06.jar",
+          "size": 18836,
+          "sha512": "38c9818cb006380e288b814dd34b536b81aee5c27fd0ae9629952cf7da8541480854b6afa2775c7f28f41ff0080798ae43cbf1ebf51e003afed7ae71258f51d0",
+          "sha256": "6dffbdd19c427482bf47d00be863538d970fc9df9e211cc055f03293f73ca7ff",
+          "sha1": "2f7e42f2d0fa69e27448002d0fe300cc4df8491c",
+          "md5": "d1d580f03e224a33d35c8ec1d2390ec3"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "sheets-desktop-sources.jar",
+          "url": "sheets-desktop-0.6.0-alpha06-sources.jar",
+          "size": 3276,
+          "sha512": "50b58759610aee9fe587c30381c5d6b78f094f334da5f612dd39b5207457290284ce475dac4f64098460087e709f5026ee35b235bdd2063d0c04caccd3231c6c",
+          "sha256": "89117539ef58082597c880a358f22e8c6ca9789572cd09256fa438241df08697",
+          "sha1": "e6dbe21f4766b63222087501e8c4f16e9b5107d8",
+          "md5": "5b6025674e45ec64c1b2dbaa33c68a87"
+        }
+      ]
+    }
+  ]
+}

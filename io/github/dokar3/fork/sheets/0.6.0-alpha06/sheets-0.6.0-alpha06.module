@@ -1,0 +1,249 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.dokar3.fork",
+    "module": "sheets",
+    "version": "0.6.0-alpha06",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.dokar3.fork",
+          "module": "sheets-core",
+          "version": {
+            "requires": "0.6.0-alpha06"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sheets-metadata.jar",
+          "url": "sheets-0.6.0-alpha06.jar",
+          "size": 3761,
+          "sha512": "f9801c30cfc6548b9785e7a684c12ad605c09a323bdfdb5e3360411c732f250247e0d2593b67dd9b396cacb2136fe6e646835c931b51f3de53c8a7d1fc84a2f7",
+          "sha256": "960a749dc25bd5ec45454bae142e59b9d1f69417beb46148535b55655bc56f72",
+          "sha1": "1f428e9975f9a03d939f3471f6e1659e200c5f7d",
+          "md5": "5e81e03dd7a87255ec19cd379fa12a4e"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "sheets-kotlin-sources.jar",
+          "url": "sheets-0.6.0-alpha06-sources.jar",
+          "size": 3276,
+          "sha512": "50b58759610aee9fe587c30381c5d6b78f094f334da5f612dd39b5207457290284ce475dac4f64098460087e709f5026ee35b235bdd2063d0c04caccd3231c6c",
+          "sha256": "89117539ef58082597c880a358f22e8c6ca9789572cd09256fa438241df08697",
+          "sha1": "e6dbe21f4766b63222087501e8c4f16e9b5107d8",
+          "md5": "5b6025674e45ec64c1b2dbaa33c68a87"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sheets-android/0.6.0-alpha06/sheets-android-0.6.0-alpha06.module",
+        "group": "io.github.dokar3.fork",
+        "module": "sheets-android",
+        "version": "0.6.0-alpha06"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sheets-android/0.6.0-alpha06/sheets-android-0.6.0-alpha06.module",
+        "group": "io.github.dokar3.fork",
+        "module": "sheets-android",
+        "version": "0.6.0-alpha06"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../sheets-android/0.6.0-alpha06/sheets-android-0.6.0-alpha06.module",
+        "group": "io.github.dokar3.fork",
+        "module": "sheets-android",
+        "version": "0.6.0-alpha06"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../sheets-desktop/0.6.0-alpha06/sheets-desktop-0.6.0-alpha06.module",
+        "group": "io.github.dokar3.fork",
+        "module": "sheets-desktop",
+        "version": "0.6.0-alpha06"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../sheets-desktop/0.6.0-alpha06/sheets-desktop-0.6.0-alpha06.module",
+        "group": "io.github.dokar3.fork",
+        "module": "sheets-desktop",
+        "version": "0.6.0-alpha06"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../sheets-desktop/0.6.0-alpha06/sheets-desktop-0.6.0-alpha06.module",
+        "group": "io.github.dokar3.fork",
+        "module": "sheets-desktop",
+        "version": "0.6.0-alpha06"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../sheets-wasm-js/0.6.0-alpha06/sheets-wasm-js-0.6.0-alpha06.module",
+        "group": "io.github.dokar3.fork",
+        "module": "sheets-wasm-js",
+        "version": "0.6.0-alpha06"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../sheets-wasm-js/0.6.0-alpha06/sheets-wasm-js-0.6.0-alpha06.module",
+        "group": "io.github.dokar3.fork",
+        "module": "sheets-wasm-js",
+        "version": "0.6.0-alpha06"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../sheets-wasm-js/0.6.0-alpha06/sheets-wasm-js-0.6.0-alpha06.module",
+        "group": "io.github.dokar3.fork",
+        "module": "sheets-wasm-js",
+        "version": "0.6.0-alpha06"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../sheets-wasm-js/0.6.0-alpha06/sheets-wasm-js-0.6.0-alpha06.module",
+        "group": "io.github.dokar3.fork",
+        "module": "sheets-wasm-js",
+        "version": "0.6.0-alpha06"
+      }
+    }
+  ]
+}
