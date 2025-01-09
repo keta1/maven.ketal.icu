@@ -3,14 +3,14 @@
   "component": {
     "group": "icu.ketal.katexmath",
     "module": "KaTeXMath-core",
-    "version": "0.0.1-alpha03",
+    "version": "0.0.1-alpha04",
     "attributes": {
       "org.gradle.status": "release"
     }
   },
   "createdBy": {
     "gradle": {
-      "version": "8.10.2"
+      "version": "8.12"
     }
   },
   "variants": [
@@ -27,19 +27,19 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.0.20"
+            "requires": "2.1.0"
           }
         }
       ],
       "files": [
         {
-          "name": "KaTeXMath-core-0.0.1-alpha03.aar",
-          "url": "KaTeXMath-core-0.0.1-alpha03.aar",
-          "size": 2783231,
-          "sha512": "1ee9a781813d289721cb1f021ede712ca00245f851aa7e0be59d859fe4af34b72fbd9c94e1584692bf55b898cc3bdb6dfd38a8ad93d11fed680e71f7743c9723",
-          "sha256": "ec3cf2441bafe4e27c4ed78ff8d32192879125a80346733913993b676d6dd1e5",
-          "sha1": "9536bcb19cdbfa9b21c485084d209851d508a958",
-          "md5": "b22044d26235495f1b018b5a8654bfe5"
+          "name": "KaTeXMath-core-0.0.1-alpha04.aar",
+          "url": "KaTeXMath-core-0.0.1-alpha04.aar",
+          "size": 2782086,
+          "sha512": "c02a41444410001451f4eda4c48fa56af6bf8c625418fa102d956e4b2918f4562fbc1993fdc5be6123caa20fd8e996d30d4e9eee2766c690f27a846fdd9d1f8b",
+          "sha256": "d5490e41fb179bbcfb666342124ade440c9e3d176a270224421f14a30f262311",
+          "sha1": "7c1934d2ef68ba0042a7e891c03e1255a32b1358",
+          "md5": "9771e945347c56d83a74d2ec90ff8028"
         }
       ]
     },
@@ -63,19 +63,19 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.0.20"
+            "requires": "2.1.0"
           }
         }
       ],
       "files": [
         {
-          "name": "KaTeXMath-core-0.0.1-alpha03.aar",
-          "url": "KaTeXMath-core-0.0.1-alpha03.aar",
-          "size": 2783231,
-          "sha512": "1ee9a781813d289721cb1f021ede712ca00245f851aa7e0be59d859fe4af34b72fbd9c94e1584692bf55b898cc3bdb6dfd38a8ad93d11fed680e71f7743c9723",
-          "sha256": "ec3cf2441bafe4e27c4ed78ff8d32192879125a80346733913993b676d6dd1e5",
-          "sha1": "9536bcb19cdbfa9b21c485084d209851d508a958",
-          "md5": "b22044d26235495f1b018b5a8654bfe5"
+          "name": "KaTeXMath-core-0.0.1-alpha04.aar",
+          "url": "KaTeXMath-core-0.0.1-alpha04.aar",
+          "size": 2782086,
+          "sha512": "c02a41444410001451f4eda4c48fa56af6bf8c625418fa102d956e4b2918f4562fbc1993fdc5be6123caa20fd8e996d30d4e9eee2766c690f27a846fdd9d1f8b",
+          "sha256": "d5490e41fb179bbcfb666342124ade440c9e3d176a270224421f14a30f262311",
+          "sha1": "7c1934d2ef68ba0042a7e891c03e1255a32b1358",
+          "md5": "9771e945347c56d83a74d2ec90ff8028"
         }
       ]
     },
@@ -89,8 +89,8 @@
       },
       "files": [
         {
-          "name": "KaTeXMath-core-0.0.1-alpha03-sources.jar",
-          "url": "KaTeXMath-core-0.0.1-alpha03-sources.jar",
+          "name": "KaTeXMath-core-0.0.1-alpha04-sources.jar",
+          "url": "KaTeXMath-core-0.0.1-alpha04-sources.jar",
           "size": 65677,
           "sha512": "a5ee7e70cfae765025dba81f4ad2d8b27e2398b2d99ee83aec0767dcf6b135f539a6d39268ed0e5e4ea1fff3e943e2589def04d4f4e316a1181c577c1fc63c0a",
           "sha256": "701bb26785fa8d6d4f49d70392d1e62482153ff38888eaf7e91da6769ba7ae36",
