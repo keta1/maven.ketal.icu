@@ -3,11 +3,13 @@
   <groupId>icu.ketal.katexmath</groupId>
   <artifactId>KaTeXMath-core</artifactId>
   <versioning>
-    <latest>0.0.1-alpha04</latest>
-    <release>0.0.1-alpha04</release>
+    <latest>0.0.1-alpha06</latest>
+    <release>0.0.1-alpha06</release>
     <versions>
       <version>0.0.1-alpha04</version>
+      <version>0.0.1-alpha05</version>
+      <version>0.0.1-alpha06</version>
     </versions>
-    <lastUpdated>20250109045148</lastUpdated>
+    <lastUpdated>20250218114444</lastUpdated>
   </versioning>
 </metadata>
