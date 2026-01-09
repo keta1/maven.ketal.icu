@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "icu.ketal.katexmath",
+    "module": "KaTeXMath-compose",
+    "version": "0.0.1-alpha12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "icu.ketal.katexmath",
+          "module": "KaTeXMath-core",
+          "version": {
+            "requires": "0.0.1-alpha12"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "KaTeXMath-compose-0.0.1-alpha12.aar",
+          "url": "KaTeXMath-compose-0.0.1-alpha12.aar",
+          "size": 15934,
+          "sha512": "833ebd39f52052536637b73c3541a8e842dd9cf8ca9f080e0f3b8bd83bb1a33c0c858d2b9db3eedd131e38321e23d0071428de011727debeb4d24a68d596de49",
+          "sha256": "2799498c6f286213df288a0a6dab1dafbc237a866a6297d663f9f8937ef615e6",
+          "sha1": "6418b3d99d004a46c2561b2bcce0daa8ea51bee4",
+          "md5": "5ce710b0a824df18ccbb874a253da511"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.08.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "icu.ketal.katexmath",
+          "module": "KaTeXMath-core",
+          "version": {
+            "requires": "0.0.1-alpha12"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "KaTeXMath-compose-0.0.1-alpha12.aar",
+          "url": "KaTeXMath-compose-0.0.1-alpha12.aar",
+          "size": 15934,
+          "sha512": "833ebd39f52052536637b73c3541a8e842dd9cf8ca9f080e0f3b8bd83bb1a33c0c858d2b9db3eedd131e38321e23d0071428de011727debeb4d24a68d596de49",
+          "sha256": "2799498c6f286213df288a0a6dab1dafbc237a866a6297d663f9f8937ef615e6",
+          "sha1": "6418b3d99d004a46c2561b2bcce0daa8ea51bee4",
+          "md5": "5ce710b0a824df18ccbb874a253da511"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "KaTeXMath-compose-0.0.1-alpha12-sources.jar",
+          "url": "KaTeXMath-compose-0.0.1-alpha12-sources.jar",
+          "size": 3472,
+          "sha512": "37609967def8f41a9aec61f4ce5d44453be679f8ed5a6e67b385f352b9c14b72958ee1ac098f3d172f3822fba191e3bcac4ef2605c25ec61ef7648f7218d299b",
+          "sha256": "89377b00e7575990e8947fafeee01d28fcf0d19056e931b29f7a4e6aea1d53dc",
+          "sha1": "0d7ffcf24c64fb80bbbe567c66fb51e2ba2b1780",
+          "md5": "f64a0e11fb100db819b9ba6ddc66de88"
+        }
+      ]
+    }
+  ]
+}
